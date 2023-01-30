@@ -1,0 +1,44 @@
+body {
+  background-color: aquamarine;
+}
+#first-id {
+  background-color: chocolate;
+}
+
+.first {
+  background-color: blue;
+  text-align: justify;
+}
+.first h1 {
+  text-align: center;
+  text-align: center;
+}
+/* id ima prioritet u odnosu na klasu  */
+/* id se obicno koristi kada zelimo da se primeni samo u nekom tagu  */
+.first p {
+  text-indent: 30px;
+  text-align: center;
+  text-align-last: right;
+  text-transform: lowercase;
+}
+/* text align left i start leva strana, a end i right su sa desne strane */
+.second {
+  background-color: blueviolet;
+  text-align: justify;
+}
+.second:nth-of-type(2) h1 {
+  text-align: end;
+}
+.second:nth-of-type(3) h1 {
+  text-align: start;
+}
+.first {
+  padding: 20px;
+  margin: 20px;
+  box-sizing: content-box;
+  border-radius: 20px;
+  border: 40px;
+}
+.first button {
+  ruby-align: center;
+}

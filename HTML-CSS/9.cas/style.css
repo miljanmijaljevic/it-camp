@@ -1,0 +1,86 @@
+.main {
+  align-content: center;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  background-color: black;
+  border: 3px solid red;
+  border-radius: 20px;
+  /* box-shadow: 6px 6px 12px 12px rgba(0, 1, 44, 0.6); */
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  overflow: auto;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* HTML ELEMENTS: */
+/* BLOCK LEVEL ELEMENTI */
+/* DIV,HEADER SECTION, P, OD H1 DO H6, UL OL LI, */
+/* INLINE ELEMENTI: */
+/* SPAN, A ,IMG,BUTTON, */
+.main img {
+  width: 400px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-size: 24px;
+  padding: 15px 15px 0px 15px;
+}
+
+.main h2 {
+  text-align: justify;
+  text-transform: capitalize;
+  color: aliceblue;
+}
+
+.main p {
+  text-align: justify;
+  text-indent: 25px;
+  text-align: right;
+  padding: 0px 15px 15px;
+  color: aliceblue;
+}
+.main:hover {
+  background-color: red;
+}
+.main img:hover {
+  content: url("./1547_Alicefilm.jpg");
+  width: 400px;
+}
+.main h1:hover {
+  color: black;
+}
+.main h2:hover {
+  color: black;
+}
+.main p:hover {
+  color: black;
+}
+div {
+  align-content: center;
+}
+.main {
+  margin: auto;
+  width: 400px;
+  height: 600px;
+}
+
+.main:nth-of-type(2) {
+  /* visibility: hidden; necemo cesto koristiti zato sto se cuva mesto na stranici rezervisano za taj element */
+
+  background-color: chartreuse;
+}
+.first {
+  background-color: darkgreen;
+}
+.main:nth-of-type (4) {
+  display: none;
+}
+.main {
+  margin: 20px 10px;
+}

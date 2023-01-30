@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        background-color: darkblue;
+        text-decoration-line: underline;
+        text-decoration-color: red;
+      }
+      button {
+        color: red;
+        text-decoration: dotted;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="../4. Cas/Domaci 4. cas/Rasored casova.html" target="_blank">
+      <label for="username">Unesite vas username:</label>
+      <input type="text" name="username" id="username" placeholder="Username" />
+      <br />
+      <br />
+      <label for="password">Unesite vas password:</label>
+      <input type="password" name="password" id="password" required />
+      <br />
+      <br />
+      <button type="submit">Prijavite se</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <form action="indexforma2.html" target="_blank">
+      <label for="email">Unesite vas email:</label>
+      <input type="email" name="email" id="email" required />
+      <br />
+      <br />
+      <label for="username">Unesite vas username:</label>
+      <input type="text" name="username" id="username" required />
+      <br />
+      <br />
+      <label for="password">Unesite vas password:</label>
+      <input type="password" name="password" id="password" required />
+      <br />
+      <br />
+      <label for="date">Unesite vas datum rodjenja:</label>
+      <input
+        type="date"
+        name="date"
+        id="date"
+        min="18"
+        max="120"
+        step="1"
+        required
+      />
+      <br />
+      <br />
+      <label for="status">Odaberite svoj status</label>
+      <select name="status" id="status">
+        <option value="Ucenik">Ucenik</option>
+        <option value="Student">Student</option>
+        <option value="Zaposleno lice">Zaposleno lice</option>
+        <option value="nezaposleno lice">Nezaposleno lice</option>
+        <option value="Mucenik">Mucenik</option>
+        <br />
+        <br />
+      </select>
+      <br />
+      <br />
+      <p>Unesite vasu kratku biografiju:</p>
+      <textarea
+        name="Unesite vasu biografiju"
+        id="Unesite vasu biografiju"
+        cols="30"
+        rows="10"
+        placeholder="Maksimalno 50 karaktera!"
+        maxlength="50"
+      ></textarea>
+      <br />
+      <br />
+      <button type="reset">Popunite ponovo</button>
+      <button type="submit">Prijavite se!</button>
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
