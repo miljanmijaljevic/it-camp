@@ -1,1 +1,61 @@
+* {
+  margin: 0;
+}
+h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+.fa-sharp {
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+h1 {
+  background-color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.parent {
+  background-color: chartreuse;
+  /* width: 60vmin; 60% u odnosu na sirinu ekrana bez obzira na velicinu8 */
+  /* width: 60vmin; 60% u odnosu na sirinu ekrana bez obzira na velicinu8 */
+  /* width: 60vmax; 60% u odnosu na sirinu ekrana bez obzira na velicinu8 */
+  height: 400px;
+  width: 60%;
+  /* height: 40vh;40% u odnosu na sirinu ekrana bez obzira na velicinu8 */
+  margin: 40px auto 30px;
+  font-size: 12px;
+}
+.child {
+  background-color: rgb(117, 193, 238);
+  font-size: 1.3rem;
+  width: 80%;
+  margin: auto;
+}
+/* U CSS-u imamo apsolutne i relativne velicine: */
+/* 1.Absolute lenghts */
+/* cm - centimeters */
+/* mm-milimeters */
+/* inches- in 1=96px */
+/* pixel- pixels  */
+/* pt- points(srazmera u odnosu na ince 1 point= 72 deo inca */
+/* pc- picas (1pc je 12pointsa) */
 
+body {
+  /* font-size: 0.4mm; */
+  font-size: 16px;
+  background-color: darkgoldenrod;
+}
+/* 2.Relativne velicine: */
+/*  relative lenghts */
+/* em- relativna u odnosu na font-size njenog parenta */
+/* rem relativna u odnosu na root element. Ne nasledjuje od roditelja. */
+/* VW- viewport of the width. Relativan za 1% u odnosu na sirinu ekrana. */
+/* vh- viewport for the height. Relativan za 1% u odnosu na visinu. */
+/* vmin- relativan za 1% u odnosu na manju dimenziju  */
+/* vmax- relativna za 1% u odnosu na vecu dimenziju */
+/* % percentage - relativan za 1% u odnosu na svog parenta  */
+i {
+  font-size: xx-large;
+  margin: 50px;
+  color: red;
+}
