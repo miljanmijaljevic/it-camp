@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+.header td {
+  background-color: aqua;
+}
+table {
+  border-color: white;
+  border: 0.1px;
+}
+.subheader td {
+  background-color: blue;
+  color: blue;
+}
+.naslov td {
+  text-align: center;
+  margin-top: 20px;
+  display: border none;
+}
+.kartica td {
+  text-align: justify;
+}
+h1 {
+  color: blue;
+}

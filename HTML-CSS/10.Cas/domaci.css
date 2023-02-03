@@ -54,6 +54,7 @@ p {
 a {
   color: white;
   text-decoration: none;
+  display: contents;
 }
 .card1:hover {
   background-color: blue;
@@ -61,4 +62,9 @@ a {
 }
 * {
   margin: 0;
+}
+.card1 a {
+  /* display: contents; */
+  /* content-visibility: visible; */
+  display
 }
