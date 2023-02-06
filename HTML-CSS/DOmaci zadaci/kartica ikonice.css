@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+* {
+  margin: auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.kartica {
+  height: 600px;
+  width: 400px;
+  background-color: rgba(10, 66, 4, 0.836);
+  box-sizing: content-box;
+  box-sizing: border-box;
+  border: 1px;
+  align-content: center;
+  margin: auto;
+  overflow: auto;
+  overflow: hidden;
+  display: inline-block;
+  border: 3px solid rgba(192, 196, 5, 0.822);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-style: dotted;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.kartica img {
+  height: 200px;
+  width: 400px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+h1 {
+  text-align: center;
+  color: rgb(236, 222, 16);
+  margin: auto;
+  padding: 10px 10px 0 10px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(231, 178, 4);
+  margin-top: 10px;
+}
+.kartica p i {
+  color: rgb(168, 235, 14);
+  font-size: 30px;
+  height: 20px;
+  width: 30px;
+}
+body {
+  background-color: darkred;
+}
+.fa-video {
+  height: 10px;
+}
+.kartica:nth-of-type(5) {
+  visibility: hidden;
+}
+.kartica img:hover {
+  content: url(./alex-azabache-riLA6oy6ekM-unsplash.jpg);
+  width: 400px;
+  height: 200px;
+}
+.fa-camera {
+  text-align: left;
+  color: black;
+}
